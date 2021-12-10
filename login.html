@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Raghvendra pbl </title>
+        <style type="text/css">
+            body{ 
+            background-image: url(pexels-photomix-company-230544.jpg);
+            background-position: center;
+            background-size: cover ;
+            background-repeat: no-repeat;
+            }
+        </style>
+    <link  rel="stylesheet" href="login.css"/>  
+    
+    <body>
+        <div class="navbar"></div>
+        <nav>
+            <ul>
+              <li><a href="front.html"><b>Home</b></a></li>
+              <li><a href="product.html"><b>Products</b></a></li>
+              <li><a href="about.html"><b>About</b></a></li>
+              <li><a href="contact.html"><b>Contact us</b></a></li>
+              <li><a href="login.html"><b>Account</b></a></li>
+            </ul>
+        </nav>
+        <div class="login box">
+           <div class="form-box">
+               <div class="button-box">
+               <div id="btn"></div>
+               <button type="button" class="toggle-btn" onclick="login()">log in</button>
+            <button type="button" class="toggle-btn" onclick="signup()">sign up</button>
+           </div>
+        <form id="login" class="input-group">
+            <input type="text"class="input-field" placeholder="user name"
+            required>
+            <input type="text"class="input-field" placeholder="enter password"
+            required>
+            <input type="checkbox"class="chech-box"><span>remember password</span>
+            <button type="submit" class="submit-btn">log in</button>
+        </form>
+        <form id="signup" class="input-group">
+            <input type="text"class="input-field" placeholder="user name"
+            required>
+            <input type="email"class="input-field" placeholder="email id"
+            required>
+            <input type="text"class="input-field" placeholder="enter password"
+            required>
+            <input type="checkbox"class="chech-box"><span>i agree to the terms & conditions</span>
+            <button type="submit" class="submit-btn">sign up</button>
+        </form>
+           </div>
+        </div>
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("signup");
+            var z = document.getElementById("btn");
+
+            function signup(){
+              x.style.left="-400px"
+                y.style.left="50px"
+                z.style.left="110px"
+
+            }
+            function login(){
+                x.style.left="50px"
+                y.style.left="450px"
+                z.style.left="0px"
+            }
+        </script>
+    </body>
+    </head>
+    </html>

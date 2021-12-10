@@ -1,0 +1,45 @@
+.body{
+  margin: 0;
+  padding: 0%;
+  font-family: 'Poppins', sans-serif;;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.header{
+  height: 100vh;
+  width: 100%;
+  background: url(download5.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main{
+  width: 50%;
+  background: rgba(0, 0, 0, .7);
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
